@@ -4,11 +4,62 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  padding-top: 5rem;
+  padding-top: -5rem;
 }
 
 * {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav .navbar-brand {
+  padding-left: 30px;
+  font-weight: bold;
+  animation: movedown 1s linear 1;
+  animation-delay: 1.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+@keyframes movedown {
+  0% {
+    transform: translateY(-100px);
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0px);
+    visibility: visible;
+  }
+}
+
+.collapse ul li a {
+  padding-right: 50px;
+  margin-right: 15pt;
+  font-weight: bold;
+}
+
+.collapse ul.navbar-nav li.nav-item1 {
+  animation: movedown 1s linear 1;
+  animation-delay: 2s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.collapse ul.navbar-nav li.nav-item2 {
+  animation: movedown 1s linear 1;
+  animation-delay: 2.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.collapse ul.navbar-nav li.nav-item3 {
+  animation: movedown 1s linear 1;
+  animation-delay: 3s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.collapse ul.navbar-nav li.nav-item4 {
+  animation: movedown 1s linear 1;
+  animation-delay: 3.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
 }
 
 #Project {
@@ -26,6 +77,37 @@ svg {
 footer {
   padding-bottom: 1rem;
   margin-top: -1px;
+}
+
+.jumbotron img {
+  animation: zoomin 1s linear 1;
+  animation-delay: 3.8s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoomin {
+  0% {
+    transform: scale(0.5);
+    visibility: visible;
+  }
+  100% {
+    transform: scale(1);
+    visibility: visible;
+  }
+}
+.jumbotron h1 {
+  animation: zoomin 1s linear 1;
+  animation-delay: 4.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.jumbotron p {
+  animation: zoomin 1s linear 1;
+  animation-delay: 5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
 }
 
 .jumbotron h1 strong {
@@ -53,6 +135,10 @@ footer {
   color: transparent;
   -webkit-text-stroke: 1px #ffffff;
   text-shadow: 4px 4px 4px #000000;
+  animation: zoomin 1s linear 1;
+  animation-delay: 5.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
 }
 
 .container label {
