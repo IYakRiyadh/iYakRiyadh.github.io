@@ -133,6 +133,9 @@ footer {
 
 .container h2 {
   margin-top: 8px;
+  border-bottom: #000000;
+  border-bottom-style: double;
+  border-bottom-width: medium;
   color: transparent;
   -webkit-text-stroke: 1px #000000a6;
   text-shadow: 4px 4px 4px #646464;
