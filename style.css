@@ -136,7 +136,7 @@ footer {
   -webkit-text-stroke: 1px #ffffff;
   text-shadow: 4px 4px 4px #000000;
   animation: zoomin 1s linear 1;
-  animation-delay: 5.5s;
+  animation-delay: 5s;
   visibility: hidden;
   animation-fill-mode: forwards;
 }
