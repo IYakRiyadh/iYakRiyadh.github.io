@@ -1,10 +1,10 @@
 body {
-  background-image: url(img/img1.jpg);
+  background-image: url(img/BG/—Pngtree—white\ 3d\ paper\ style\ background_1300812.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  padding-top: -5rem;
+  margin-top: 10px;
 }
 
 * {
@@ -117,9 +117,9 @@ footer {
   font-size: 80px;
   margin-left: -10px;
   color: transparent;
-  -webkit-text-stroke: 1px #ffffff;
+  -webkit-text-stroke: 1px #363636;
   background: url(img/back.png);
-  background-color: #0d6efd;
+  background-color: #0d6dfdd3;
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 10s linear infinite;
@@ -132,15 +132,46 @@ footer {
 }
 
 .container h2 {
+  margin-top: 8px;
   color: transparent;
-  -webkit-text-stroke: 1px #ffffff;
-  text-shadow: 4px 4px 4px #000000;
-  animation: zoomin 1s linear 1;
-  animation-delay: 5s;
+  -webkit-text-stroke: 1px #000000a6;
+  text-shadow: 4px 4px 4px #646464;
+  animation: zoomin 2s linear forwards;
+  animation-delay: 2s;
   visibility: hidden;
   animation-fill-mode: forwards;
 }
 
 .container label {
-  color: #ffffff;
+  color: #000000;
+}
+
+/* .container .row p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder bold;
+  margin-top: 4pt;
+} */
+.container .row p .aboutme {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 4pt;
+  text-align: justify;
+  /* text-align-last: justify; */
+}
+
+.sosmedwa button {
+  border-style: none;
+  border-color: transparent;
+  border-radius: 60px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  float: right;
+}
+.sosmedwa button img {
+  width: 100px;
+  height: 100px;
+  margin: 0px;
+  margin-right: -26px;
+  margin-left: -26px;
+  margin-top: -26px;
+  margin-bottom: -26px;
 }
