@@ -62,15 +62,16 @@ nav .navbar-brand {
   animation-fill-mode: forwards;
 }
 
-#Project {
+/* #Project {
   background-color: #ffffff5b;
-}
+} */
 
 section {
   padding-top: 4rem;
 }
 
 svg {
+  color: #0d7dfd46;
   padding-bottom: -5rem;
 }
 
@@ -136,7 +137,8 @@ footer {
   border-bottom: #000000;
   border-bottom-style: double;
   border-bottom-width: medium;
-  color: transparent;
+  /* color: transparent; */
+  lighting-color: skyblue;
   -webkit-text-stroke: 1px #000000a6;
   text-shadow: 4px 4px 4px #646464;
   animation: zoomin 2s linear forwards;
@@ -146,6 +148,7 @@ footer {
 }
 
 .container label {
+  /* lighting-color: skyblue; */
   color: #000000;
 }
 
@@ -154,11 +157,10 @@ footer {
   font-weight: bolder bold;
   margin-top: 4pt;
 } */
-.container .row p .aboutme {
+.container .aboutme {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-top: 4pt;
   text-align: justify;
-  /* text-align-last: justify; */
 }
 
 .sosmedwa button {
