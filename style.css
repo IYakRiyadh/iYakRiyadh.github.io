@@ -86,6 +86,7 @@ section {
 
 svg {
   color: #569ef0;
+  padding: 0;
 }
 .svg_jumbotron {
   color: #569ef0ec;
@@ -113,8 +114,7 @@ footer {
 }
 
 .jumbotron img {
-  margin-bottom: auto;
-  margin-top: 50px;
+  margin-top: 230px;
   animation: zoomin 1s linear 1;
   animation-delay: 3.8s;
   visibility: hidden;
@@ -149,7 +149,7 @@ footer {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bolder bold;
   margin-top: 4pt;
-  font-size: 30pt;
+  font-size: 25pt;
   margin-left: -10px;
   color: transparent;
   -webkit-text-stroke: 1px #b1afaf;
