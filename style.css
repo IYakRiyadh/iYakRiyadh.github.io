@@ -12,7 +12,6 @@ body {
 }
 
 nav .navbar-brand {
-  padding-left: 50px;
   font-weight: bold;
   animation: movedown 1s linear 1;
   animation-delay: 1.5s;
